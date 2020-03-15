@@ -3,22 +3,22 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-int runbackup(){
+int runtransfer(){
     char *livedir = "/srv/live";
-    char *backdir = "/srv/back";
+    char *intdir = "/srv/int";
  
     int pid2 = fork();
 
     if(pid2 == -1)
     {
-        perror("backuperr: cannot fork");
+        perror("transfererr: cannot fork");
         printf("errback");
         fflush(stdout);
 
     } else if( pid2 ==0)
     {
-        char *cmdcp = "rsync";
-        char *args[] = {"rsync", "-avrt", "--delete", livedir, backdir, NULL};
+        char *cmdcp = "cp";
+        char *args[] = {"cp", "-R", "-f", intdir, livedir, NULL};
         execvp(cmdcp, args);
         exit(1);
     }

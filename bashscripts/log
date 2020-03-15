@@ -1,0 +1,1 @@
+type=CONFIG_CHANGE msg=audit(1584024461.569:9356):  auid=1000 ses=2 op=add_rule key="live" list=4 res=1

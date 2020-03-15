@@ -1,27 +1,10 @@
 #!/bin/bash
+check=$(auditctl -l -k int)
 
-
-#sudo auditctl -l -k dem
-#sudo ausearch -k dem | grep type >> log.txt
-#sudo auditctl -w /srv/int/ -p rwxa -k dem
-
-check=$(auditctl -l -k live)
-
-if [ ${#check} -eq 0 ]
+if [ ${#check} -eq 0 ] || [ "$check" == "No rules" ]
     then 
-        echo "yes:loggin"
-
-        while true
-        do
-            ausearch -k live | grep type > log.txt
-        done
+        echo "no loggin making rule"
+        auditctl -w /srv/int/ -p rwxa -k int
     else
-        echo "no"
-        auditctl -w /srv/live/ -p rwxa -k live
-
-        while true
-        do
-            ausearch -k live | grep type > log.txt
-        done
-        
+        echo "rule already in place"
 fi

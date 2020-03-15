@@ -1,0 +1,110 @@
+type=CONFIG_CHANGE msg=audit(1584025592.661:9433):  auid=1000 ses=2 op=add_rule key="int" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1584026009.868:9521):  auid=1000 ses=2 op=remove_rule key="int" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1584026722.471:9564):  auid=1000 ses=2 op=add_rule key="int" list=4 res=1
+type=PROCTITLE msg=audit(1584026885.152:9582): proctitle=746F756368006A6164
+type=PATH msg=audit(1584026885.152:9582): item=1 name="jad" inode=1189136 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1584026885.152:9582): item=0 name="/srv/int" inode=1189781 dev=08:01 mode=040777 ouid=1000 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1584026885.152:9582): cwd="/srv/int"
+type=SYSCALL msg=audit(1584026885.152:9582): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7ffffc58d932 a2=941 a3=1b6 items=2 ppid=881 pid=93729 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts2 ses=2 comm="touch" exe="/usr/bin/touch" key="int"
+type=PROCTITLE msg=audit(1584026896.682:9588): proctitle=2F6F70742F76697375616C2D73747564696F2D636F64652F636F6465202D2D747970653D72656E6465726572202D2D64697361626C652D636F6C6F722D636F72726563742D72656E646572696E67202D2D6669656C642D747269616C2D68616E646C653D31303230373833303733333533323436373736302C31323134383632
+type=PATH msg=audit(1584026896.682:9588): item=0 name="/srv/int" inode=1189781 dev=08:01 mode=040777 ouid=1000 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1584026896.682:9588): cwd="/home/jack"
+type=SYSCALL msg=audit(1584026896.682:9588): arch=c000003e syscall=257 success=yes exit=52 a0=ffffff9c a1=cdabf3cf6c0 a2=90800 a3=0 items=1 ppid=1539 pid=1585 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="code" exe="/opt/visual-studio-code/code" key="int"
+type=PROCTITLE msg=audit(1584026896.682:9589): proctitle=2F6F70742F76697375616C2D73747564696F2D636F64652F636F6465202D2D747970653D72656E6465726572202D2D64697361626C652D636F6C6F722D636F72726563742D72656E646572696E67202D2D6669656C642D747269616C2D68616E646C653D31303230373833303733333533323436373736302C31323134383632
+type=PATH msg=audit(1584026896.682:9589): item=0 name="/srv/int" inode=1189781 dev=08:01 mode=040777 ouid=1000 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1584026896.682:9589): cwd="/home/jack"
+type=SYSCALL msg=audit(1584026896.682:9589): arch=c000003e syscall=257 success=yes exit=52 a0=ffffff9c a1=cdabee89410 a2=90800 a3=0 items=1 ppid=1539 pid=1585 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="code" exe="/opt/visual-studio-code/code" key="int"
+type=PROCTITLE msg=audit(1584026900.322:9590): proctitle=2F6F70742F76697375616C2D73747564696F2D636F64652F636F6465202D2D747970653D72656E6465726572202D2D64697361626C652D636F6C6F722D636F72726563742D72656E646572696E67202D2D6669656C642D747269616C2D68616E646C653D31303230373833303733333533323436373736302C31323134383632
+type=PATH msg=audit(1584026900.322:9590): item=0 name="/srv/int" inode=1189781 dev=08:01 mode=040777 ouid=1000 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1584026900.322:9590): cwd="/home/jack"
+type=SYSCALL msg=audit(1584026900.322:9590): arch=c000003e syscall=257 success=yes exit=116 a0=ffffff9c a1=cdabf3cd890 a2=90800 a3=0 items=1 ppid=1539 pid=1585 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="code" exe="/opt/visual-studio-code/code" key="int"
+type=PROCTITLE msg=audit(1584026900.322:9591): proctitle=2F6F70742F76697375616C2D73747564696F2D636F64652F636F6465202D2D747970653D72656E6465726572202D2D64697361626C652D636F6C6F722D636F72726563742D72656E646572696E67202D2D6669656C642D747269616C2D68616E646C653D31303230373833303733333533323436373736302C31323134383632
+type=PATH msg=audit(1584026900.322:9591): item=0 name="/srv/int" inode=1189781 dev=08:01 mode=040777 ouid=1000 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1584026900.322:9591): cwd="/home/jack"
+type=SYSCALL msg=audit(1584026900.322:9591): arch=c000003e syscall=257 success=yes exit=116 a0=ffffff9c a1=cdabed66690 a2=90800 a3=0 items=1 ppid=1539 pid=1585 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="code" exe="/opt/visual-studio-code/code" key="int"
+type=PROCTITLE msg=audit(1584026918.982:9592): proctitle=6C73002D2D636F6C6F723D6175746F
+type=PATH msg=audit(1584026918.982:9592): item=0 name="." inode=1189781 dev=08:01 mode=040777 ouid=1000 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1584026918.982:9592): cwd="/srv/int"
+type=SYSCALL msg=audit(1584026918.982:9592): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=556a982c33b0 a2=90800 a3=0 items=1 ppid=881 pid=93753 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts2 ses=2 comm="ls" exe="/usr/bin/ls" key="int"
+type=PROCTITLE msg=audit(1584026918.982:9593): proctitle=6C73002D2D636F6C6F723D6175746F
+type=PATH msg=audit(1584026918.982:9593): item=0 name="package.json" inode=1189902 dev=08:01 mode=0100777 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1584026918.982:9593): cwd="/srv/int"
+type=SYSCALL msg=audit(1584026918.982:9593): arch=c000003e syscall=191 success=no exit=-61 a0=7ffcd116c8c0 a1=7f25d1b932dc a2=7ffcd116c880 a3=18 items=1 ppid=881 pid=93753 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts2 ses=2 comm="ls" exe="/usr/bin/ls" key="int"
+type=PROCTITLE msg=audit(1584026918.982:9594): proctitle=6C73002D2D636F6C6F723D6175746F
+type=PATH msg=audit(1584026918.982:9594): item=0 name="README.md" inode=1189904 dev=08:01 mode=0100777 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1584026918.982:9594): cwd="/srv/int"
+type=SYSCALL msg=audit(1584026918.982:9594): arch=c000003e syscall=191 success=no exit=-61 a0=7ffcd116c8c0 a1=7f25d1b932dc a2=7ffcd116c880 a3=18 items=1 ppid=881 pid=93753 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts2 ses=2 comm="ls" exe="/usr/bin/ls" key="int"
+type=PROCTITLE msg=audit(1584026918.982:9595): proctitle=6C73002D2D636F6C6F723D6175746F
+type=PATH msg=audit(1584026918.982:9595): item=0 name="index.html" inode=1189897 dev=08:01 mode=0100777 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1584026918.982:9595): cwd="/srv/int"
+type=SYSCALL msg=audit(1584026918.982:9595): arch=c000003e syscall=191 success=no exit=-61 a0=7ffcd116c8c0 a1=7f25d1b932dc a2=7ffcd116c880 a3=18 items=1 ppid=881 pid=93753 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts2 ses=2 comm="ls" exe="/usr/bin/ls" key="int"
+type=PROCTITLE msg=audit(1584026918.982:9596): proctitle=6C73002D2D636F6C6F723D6175746F
+type=PATH msg=audit(1584026918.982:9596): item=0 name="jad" inode=1189136 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1584026918.982:9596): cwd="/srv/int"
+type=SYSCALL msg=audit(1584026918.982:9596): arch=c000003e syscall=191 success=no exit=-61 a0=7ffcd116c8d0 a1=7f25d1b932dc a2=7ffcd116c890 a3=18 items=1 ppid=881 pid=93753 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts2 ses=2 comm="ls" exe="/usr/bin/ls" key="int"
+type=PROCTITLE msg=audit(1584026918.982:9597): proctitle=6C73002D2D636F6C6F723D6175746F
+type=PATH msg=audit(1584026918.982:9597): item=0 name="gulpfile.js" inode=1189879 dev=08:01 mode=0100777 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1584026918.982:9597): cwd="/srv/int"
+type=SYSCALL msg=audit(1584026918.982:9597): arch=c000003e syscall=191 success=no exit=-61 a0=7ffcd116c8c0 a1=7f25d1b932dc a2=7ffcd116c880 a3=18 items=1 ppid=881 pid=93753 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts2 ses=2 comm="ls" exe="/usr/bin/ls" key="int"
+type=PROCTITLE msg=audit(1584026918.982:9598): proctitle=6C73002D2D636F6C6F723D6175746F
+type=PATH msg=audit(1584026918.982:9598): item=0 name="LICENSE" inode=1189901 dev=08:01 mode=0100777 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1584026918.982:9598): cwd="/srv/int"
+type=SYSCALL msg=audit(1584026918.982:9598): arch=c000003e syscall=191 success=no exit=-61 a0=7ffcd116c8c0 a1=7f25d1b932dc a2=7ffcd116c880 a3=18 items=1 ppid=881 pid=93753 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts2 ses=2 comm="ls" exe="/usr/bin/ls" key="int"
+type=PROCTITLE msg=audit(1584026918.982:9599): proctitle=6C73002D2D636F6C6F723D6175746F
+type=PATH msg=audit(1584026918.982:9599): item=0 name="package-lock.json" inode=1189903 dev=08:01 mode=0100777 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1584026918.982:9599): cwd="/srv/int"
+type=SYSCALL msg=audit(1584026918.982:9599): arch=c000003e syscall=191 success=no exit=-61 a0=7ffcd116c8c0 a1=7f25d1b932dc a2=7ffcd116c880 a3=18 items=1 ppid=881 pid=93753 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts2 ses=2 comm="ls" exe="/usr/bin/ls" key="int"
+type=PROCTITLE msg=audit(1584026921.352:9600): proctitle="/bin/bash"
+type=PATH msg=audit(1584026921.352:9600): item=0 name="." inode=1189781 dev=08:01 mode=040777 ouid=1000 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1584026921.352:9600): cwd="/srv/int"
+type=SYSCALL msg=audit(1584026921.352:9600): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=555a818f2670 a2=90800 a3=0 items=1 ppid=684 pid=881 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts2 ses=2 comm="bash" exe="/usr/bin/bash" key="int"
+type=PROCTITLE msg=audit(1584026922.952:9601): proctitle="/bin/bash"
+type=PATH msg=audit(1584026922.952:9601): item=0 name="." inode=1189781 dev=08:01 mode=040777 ouid=1000 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1584026922.952:9601): cwd="/srv/int"
+type=SYSCALL msg=audit(1584026922.952:9601): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=555a81860730 a2=90800 a3=0 items=1 ppid=684 pid=881 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts2 ses=2 comm="bash" exe="/usr/bin/bash" key="int"
+type=PROCTITLE msg=audit(1584026923.542:9602): proctitle=726D006A6164
+type=PATH msg=audit(1584026923.542:9602): item=1 name="jad" inode=1189136 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1584026923.542:9602): item=0 name="/srv/int" inode=1189781 dev=08:01 mode=040777 ouid=1000 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1584026923.542:9602): cwd="/srv/int"
+type=SYSCALL msg=audit(1584026923.542:9602): arch=c000003e syscall=263 success=yes exit=0 a0=ffffff9c a1=557bd6bee4d0 a2=0 a3=0 items=2 ppid=881 pid=93754 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts2 ses=2 comm="rm" exe="/usr/bin/rm" key="int"
+type=PROCTITLE msg=audit(1584026975.112:9603): proctitle="/bin/bash"
+type=PATH msg=audit(1584026975.112:9603): item=0 name="." inode=1189781 dev=08:01 mode=040777 ouid=1000 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1584026975.112:9603): cwd="/srv/int"
+type=SYSCALL msg=audit(1584026975.112:9603): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=555a818f2f90 a2=90800 a3=0 items=1 ppid=684 pid=881 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts2 ses=2 comm="bash" exe="/usr/bin/bash" key="int"
+type=PROCTITLE msg=audit(1584026978.352:9604): proctitle="/bin/bash"
+type=PATH msg=audit(1584026978.352:9604): item=0 name="." inode=1189781 dev=08:01 mode=040777 ouid=1000 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1584026978.352:9604): cwd="/srv/int"
+type=SYSCALL msg=audit(1584026978.352:9604): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=555a818ba330 a2=90800 a3=0 items=1 ppid=684 pid=881 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts2 ses=2 comm="bash" exe="/usr/bin/bash" key="int"
+type=PROCTITLE msg=audit(1584026984.612:9609): proctitle=6E616E6F00696E6465782E68746D6C
+type=PATH msg=audit(1584026984.612:9609): item=0 name="/srv/int/index.html" inode=1189897 dev=08:01 mode=0100777 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1584026984.612:9609): cwd="/srv/int"
+type=SYSCALL msg=audit(1584026984.612:9609): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=5570238cf4c0 a2=0 a3=0 items=1 ppid=93760 pid=93763 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=2 comm="nano" exe="/usr/bin/nano" key="int"
+type=PROCTITLE msg=audit(1584026990.912:9610): proctitle=6E616E6F00696E6465782E68746D6C
+type=PATH msg=audit(1584026990.912:9610): item=1 name="index.html" inode=1189897 dev=08:01 mode=0100777 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1584026990.912:9610): item=0 name="/srv/int" inode=1189781 dev=08:01 mode=040777 ouid=1000 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1584026990.912:9610): cwd="/srv/int"
+type=SYSCALL msg=audit(1584026990.912:9610): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=5570238da670 a2=241 a3=1b6 items=2 ppid=93760 pid=93763 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=2 comm="nano" exe="/usr/bin/nano" key="int"
+type=PROCTITLE msg=audit(1584027000.162:9613): proctitle=2F6F70742F76697375616C2D73747564696F2D636F64652F636F6465202D2D747970653D72656E6465726572202D2D64697361626C652D636F6C6F722D636F72726563742D72656E646572696E67202D2D6669656C642D747269616C2D68616E646C653D31303230373833303733333533323436373736302C31323134383632
+type=PATH msg=audit(1584027000.162:9613): item=0 name="/srv/int" inode=1189781 dev=08:01 mode=040777 ouid=1000 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1584027000.162:9613): cwd="/home/jack"
+type=SYSCALL msg=audit(1584027000.162:9613): arch=c000003e syscall=257 success=yes exit=52 a0=ffffff9c a1=cdabf9fdf90 a2=90800 a3=0 items=1 ppid=1539 pid=1585 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="code" exe="/opt/visual-studio-code/code" key="int"
+type=PROCTITLE msg=audit(1584027000.162:9614): proctitle=2F6F70742F76697375616C2D73747564696F2D636F64652F636F6465202D2D747970653D72656E6465726572202D2D64697361626C652D636F6C6F722D636F72726563742D72656E646572696E67202D2D6669656C642D747269616C2D68616E646C653D31303230373833303733333533323436373736302C31323134383632
+type=PATH msg=audit(1584027000.162:9614): item=0 name="/srv/int" inode=1189781 dev=08:01 mode=040777 ouid=1000 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1584027000.162:9614): cwd="/home/jack"
+type=SYSCALL msg=audit(1584027000.162:9614): arch=c000003e syscall=257 success=yes exit=52 a0=ffffff9c a1=cdabf995430 a2=90800 a3=0 items=1 ppid=1539 pid=1585 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="code" exe="/opt/visual-studio-code/code" key="int"
+type=PROCTITLE msg=audit(1584027001.342:9615): proctitle=2F6F70742F76697375616C2D73747564696F2D636F64652F636F6465202D2D747970653D72656E6465726572202D2D64697361626C652D636F6C6F722D636F72726563742D72656E646572696E67202D2D6669656C642D747269616C2D68616E646C653D31303230373833303733333533323436373736302C31323134383632
+type=PATH msg=audit(1584027001.342:9615): item=0 name="/srv/int" inode=1189781 dev=08:01 mode=040777 ouid=1000 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1584027001.342:9615): cwd="/home/jack"
+type=SYSCALL msg=audit(1584027001.342:9615): arch=c000003e syscall=257 success=yes exit=56 a0=ffffff9c a1=cdabdc421c0 a2=90800 a3=0 items=1 ppid=1539 pid=1585 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="code" exe="/opt/visual-studio-code/code" key="int"
+type=PROCTITLE msg=audit(1584027001.342:9616): proctitle=2F6F70742F76697375616C2D73747564696F2D636F64652F636F6465202D2D747970653D72656E6465726572202D2D64697361626C652D636F6C6F722D636F72726563742D72656E646572696E67202D2D6669656C642D747269616C2D68616E646C653D31303230373833303733333533323436373736302C31323134383632
+type=PATH msg=audit(1584027001.342:9616): item=0 name="/srv/int" inode=1189781 dev=08:01 mode=040777 ouid=1000 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1584027001.342:9616): cwd="/home/jack"
+type=SYSCALL msg=audit(1584027001.342:9616): arch=c000003e syscall=257 success=yes exit=56 a0=ffffff9c a1=cdabfac37d0 a2=90800 a3=0 items=1 ppid=1539 pid=1585 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="code" exe="/opt/visual-studio-code/code" key="int"
+type=PROCTITLE msg=audit(1584027003.882:9617): proctitle=2F6F70742F76697375616C2D73747564696F2D636F64652F636F6465202D2D747970653D72656E6465726572202D2D64697361626C652D636F6C6F722D636F72726563742D72656E646572696E67202D2D6669656C642D747269616C2D68616E646C653D31303230373833303733333533323436373736302C31323134383632
+type=PATH msg=audit(1584027003.882:9617): item=0 name="/srv/int" inode=1189781 dev=08:01 mode=040777 ouid=1000 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1584027003.882:9617): cwd="/home/jack"
+type=SYSCALL msg=audit(1584027003.882:9617): arch=c000003e syscall=257 success=yes exit=56 a0=ffffff9c a1=cdabf8ef180 a2=90800 a3=0 items=1 ppid=1539 pid=1585 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="code" exe="/opt/visual-studio-code/code" key="int"
+type=PROCTITLE msg=audit(1584027003.882:9618): proctitle=2F6F70742F76697375616C2D73747564696F2D636F64652F636F6465202D2D747970653D72656E6465726572202D2D64697361626C652D636F6C6F722D636F72726563742D72656E646572696E67202D2D6669656C642D747269616C2D68616E646C653D31303230373833303733333533323436373736302C31323134383632
+type=PATH msg=audit(1584027003.882:9618): item=0 name="/srv/int" inode=1189781 dev=08:01 mode=040777 ouid=1000 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=CWD msg=audit(1584027003.882:9618): cwd="/home/jack"
+type=SYSCALL msg=audit(1584027003.882:9618): arch=c000003e syscall=257 success=yes exit=56 a0=ffffff9c a1=cdabf9b6900 a2=90800 a3=0 items=1 ppid=1539 pid=1585 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="code" exe="/opt/visual-studio-code/code" key="int"
